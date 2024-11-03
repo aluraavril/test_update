@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #276221;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #276221;
+}
+
+.btn-danger {
+    background-color: #f44336;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+}
+
+.editAndDelete {
+    margin-top: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], 
+input[type="number"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.auth-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.auth-container form p {
+    margin-bottom: 15px;
+}
+
+/* Add these to your existing style.css */
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.message.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+.message.error {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+.color-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Add these to your existing CSS */
+.auth-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"],
+.auth-form input[type="number"],
+.auth-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.user-info {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.bettor-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.bettor-info {
+    margin-bottom: 10px;
+}
+
+.add-bettor-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.bettors-list {
+    margin-top: 20px;
+}
+
+.no-data {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
+
+.edit-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-cancel {
+    background-color: #6c757d;
+}
+
+.btn-cancel:hover {
+    background-color: #5a6268;
+}
