@@ -42,3 +42,7 @@ UPDATE bettors SET added_by = (SELECT user_id FROM users LIMIT 1) WHERE added_by
 ALTER TABLE bettors 
 ADD COLUMN last_updated_by INT,
 ADD FOREIGN KEY (last_updated_by) REFERENCES users(user_id);
+
+ALTER TABLE color_game
+ADD COLUMN last_updated_by INT,
+ADD FOREIGN KEY (last_updated_by) REFERENCES users(user_id);
