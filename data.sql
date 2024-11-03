@@ -35,7 +35,7 @@ CREATE TABLE bettors (
     FOREIGN KEY (added_by) REFERENCES users(user_id)
 );
 
--- Update existing records 
+-- Updates made on existing records 
 UPDATE bettors SET added_by = (SELECT user_id FROM users LIMIT 1) WHERE added_by IS NULL;
 
 
@@ -46,3 +46,4 @@ ADD FOREIGN KEY (last_updated_by) REFERENCES users(user_id);
 ALTER TABLE color_game
 ADD COLUMN last_updated_by INT,
 ADD FOREIGN KEY (last_updated_by) REFERENCES users(user_id);
+
